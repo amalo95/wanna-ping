@@ -25,6 +25,7 @@
 		C2F2DD801C177A9400BB8921 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8111C1778B600DFE3A1 /* CFNetwork.framework */; };
 		C2F2DD811C177AA200BB8921 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8171C1778B600DFE3A1 /* Security.framework */; };
 		C2F2DD821C177AA800BB8921 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8181C1778B600DFE3A1 /* StoreKit.framework */; };
+		C2F2DD831C177D4000BB8921 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8191C1778B600DFE3A1 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F2DD831C177D4000BB8921 /* SystemConfiguration.framework in Frameworks */,
 				C2F2DD821C177AA800BB8921 /* StoreKit.framework in Frameworks */,
 				C2F2DD811C177AA200BB8921 /* Security.framework in Frameworks */,
 				C2F2DD801C177A9400BB8921 /* CFNetwork.framework in Frameworks */,
