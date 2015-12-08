@@ -16,13 +16,123 @@
                     <view key="view" contentMode="scaleToFill" id="Dkp-8G-mDo">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iNZ-sN-cZe">
+                                <rect key="frame" x="272" y="285" width="57" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Sign up!"/>
+                                <connections>
+                                    <segue destination="S1u-BF-bvq" kind="show" id="vQH-AV-6Ay"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Sj-Y0-Ahn">
+                                <rect key="frame" x="136" y="186" width="329" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DHU-uJ-dwR">
+                                <rect key="frame" x="136" y="126" width="329" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="329" id="TG4-Ac-2QR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1FC-Rc-iPT">
+                                <rect key="frame" x="277" y="247" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Log in!"/>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1FC-Rc-iPT" firstAttribute="centerX" secondItem="iNZ-sN-cZe" secondAttribute="centerX" id="6dM-aU-Ucn"/>
+                            <constraint firstItem="DHU-uJ-dwR" firstAttribute="leading" secondItem="6Sj-Y0-Ahn" secondAttribute="leading" id="LyG-qg-gta"/>
+                            <constraint firstItem="6Sj-Y0-Ahn" firstAttribute="top" secondItem="DHU-uJ-dwR" secondAttribute="bottom" constant="30" id="UTl-v5-7G3"/>
+                            <constraint firstItem="iNZ-sN-cZe" firstAttribute="centerY" secondItem="Dkp-8G-mDo" secondAttribute="centerY" id="Xzd-gv-sYF"/>
+                            <constraint firstItem="iNZ-sN-cZe" firstAttribute="top" secondItem="1FC-Rc-iPT" secondAttribute="bottom" constant="8" symbolic="YES" id="Yoz-VS-K3G"/>
+                            <constraint firstItem="DHU-uJ-dwR" firstAttribute="top" secondItem="uOZ-Rd-qUj" secondAttribute="bottom" constant="62" id="h7T-f5-puM"/>
+                            <constraint firstItem="iNZ-sN-cZe" firstAttribute="centerX" secondItem="Dkp-8G-mDo" secondAttribute="centerX" id="hOA-z8-TDL"/>
+                            <constraint firstItem="6Sj-Y0-Ahn" firstAttribute="trailing" secondItem="DHU-uJ-dwR" secondAttribute="trailing" id="q1B-r7-q0f"/>
+                            <constraint firstItem="6Sj-Y0-Ahn" firstAttribute="centerX" secondItem="iNZ-sN-cZe" secondAttribute="centerX" id="v0J-Ov-MVZ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0M9-Gh-HLX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="908" y="-2442"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gM7-5X-d4I">
+            <objects>
+                <viewController id="S1u-BF-bvq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QOo-1Y-J2R"/>
+                        <viewControllerLayoutGuide type="bottom" id="ehW-Kt-VBO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="boF-Oh-VA9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="last name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b6n-40-fr4">
+                                <rect key="frame" x="136" y="178" width="329" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="first name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="B2t-fw-Jii">
+                                <rect key="frame" x="136" y="118" width="329" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="329" id="FFu-gx-xbY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hC2-5O-NGh">
+                                <rect key="frame" x="136" y="298" width="329" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2dN-ef-fnH">
+                                <rect key="frame" x="136" y="238" width="329" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="slF-0v-JKg">
+                                <rect key="frame" x="235" y="368" width="130" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Create an account!"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2dN-ef-fnH" firstAttribute="trailing" secondItem="hC2-5O-NGh" secondAttribute="trailing" id="4IR-pa-tk2"/>
+                            <constraint firstItem="slF-0v-JKg" firstAttribute="centerX" secondItem="hC2-5O-NGh" secondAttribute="centerX" id="5LF-gF-HJK"/>
+                            <constraint firstItem="2dN-ef-fnH" firstAttribute="centerX" secondItem="boF-Oh-VA9" secondAttribute="centerX" id="9OH-Br-97t"/>
+                            <constraint firstItem="hC2-5O-NGh" firstAttribute="top" secondItem="2dN-ef-fnH" secondAttribute="bottom" constant="30" id="Tk9-fd-XFr"/>
+                            <constraint firstItem="b6n-40-fr4" firstAttribute="top" secondItem="B2t-fw-Jii" secondAttribute="bottom" constant="30" id="Trq-wY-e5c"/>
+                            <constraint firstItem="2dN-ef-fnH" firstAttribute="top" secondItem="b6n-40-fr4" secondAttribute="bottom" constant="30" id="W8T-XA-VJR"/>
+                            <constraint firstItem="2dN-ef-fnH" firstAttribute="trailing" secondItem="b6n-40-fr4" secondAttribute="trailing" id="YRc-oM-sZh"/>
+                            <constraint firstItem="2dN-ef-fnH" firstAttribute="leading" secondItem="b6n-40-fr4" secondAttribute="leading" id="gvE-M8-eaY"/>
+                            <constraint firstItem="2dN-ef-fnH" firstAttribute="top" secondItem="boF-Oh-VA9" secondAttribute="top" constant="238" id="hFp-Jt-xSZ"/>
+                            <constraint firstItem="b6n-40-fr4" firstAttribute="trailing" secondItem="B2t-fw-Jii" secondAttribute="trailing" id="jSW-j6-gqF"/>
+                            <constraint firstItem="slF-0v-JKg" firstAttribute="top" secondItem="hC2-5O-NGh" secondAttribute="bottom" constant="40" id="nIx-nG-Fy2"/>
+                            <constraint firstItem="2dN-ef-fnH" firstAttribute="top" secondItem="b6n-40-fr4" secondAttribute="bottom" constant="30" id="p6C-3f-hgx"/>
+                            <constraint firstItem="2dN-ef-fnH" firstAttribute="leading" secondItem="hC2-5O-NGh" secondAttribute="leading" id="pjH-el-RRl"/>
+                            <constraint firstItem="B2t-fw-Jii" firstAttribute="leading" secondItem="b6n-40-fr4" secondAttribute="leading" id="x3t-oF-pwc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rKl-cO-w14" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="-3419"/>
         </scene>
         <!--Leagues View Controller-->
         <scene sceneID="uJe-ml-3nq">
@@ -54,7 +164,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="I6t-cx-3aB">
-                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="Tgm-Pf-Xeb"/>
+                        <barButtonItem key="leftBarButtonItem" title="Log Out" id="Tgm-Pf-Xeb">
+                            <connections>
+                                <action selector="logOutAction:" destination="ca7-rv-R5Q" id="IF0-Mt-nOi"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" id="tQM-Pm-nAn">
                             <connections>
                                 <segue destination="KXw-ey-STG" kind="show" id="oVD-IS-hXd"/>

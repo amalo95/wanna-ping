@@ -11,6 +11,11 @@ import Parse
 
 class LeaguesViewController: UITableViewController {
     
+    @IBAction func logOutAction(sender: AnyObject) {
+        self.performSegueWithIdentifier("showLogin", sender: self)
+
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
