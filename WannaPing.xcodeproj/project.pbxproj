@@ -7,8 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2B1805A1C177A0400202244 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B180581C177A0400202244 /* Bolts.framework */; };
-		C2B1805B1C177A0400202244 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B180591C177A0400202244 /* Parse.framework */; };
+		4B9610661C177C68002A8942 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9610641C177C68002A8942 /* Bolts.framework */; };
+		4B9610671C177C68002A8942 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B9610651C177C68002A8942 /* Parse.framework */; };
+		4B9610681C177C91002A8942 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8101C1778B600DFE3A1 /* AudioToolbox.framework */; };
+		4B9610691C177CB5002A8942 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8121C1778B600DFE3A1 /* CoreGraphics.framework */; };
+		4B96106A1C177CBB002A8942 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8111C1778B600DFE3A1 /* CFNetwork.framework */; };
+		4B96106B1C177CC5002A8942 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8131C1778B600DFE3A1 /* CoreLocation.framework */; };
+		4B96106C1C177CDA002A8942 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8141C1778B600DFE3A1 /* libsqlite3.tbd */; };
+		4B96106D1C177CE1002A8942 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8151C1778B600DFE3A1 /* libz.tbd */; };
+		4B96106E1C177CF1002A8942 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8171C1778B600DFE3A1 /* Security.framework */; };
+		4B96106F1C177CF9002A8942 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8181C1778B600DFE3A1 /* StoreKit.framework */; };
+		4B9610701C177D19002A8942 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8161C1778B600DFE3A1 /* QuartzCore.framework */; };
+		4B9610711C177D32002A8942 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8191C1778B600DFE3A1 /* SystemConfiguration.framework */; };
 		C2BEA7DE1C176F5700DFE3A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEA7DD1C176F5700DFE3A1 /* AppDelegate.swift */; };
 		C2BEA7E01C176F5700DFE3A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEA7DF1C176F5700DFE3A1 /* ViewController.swift */; };
 		C2BEA7E31C176F5700DFE3A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BEA7E11C176F5700DFE3A1 /* Main.storyboard */; };
@@ -46,8 +56,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C2B180581C177A0400202244 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1-2/Bolts.framework"; sourceTree = "<group>"; };
-		C2B180591C177A0400202244 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/parse-library-1-2/Parse.framework"; sourceTree = "<group>"; };
+		4B9610641C177C68002A8942 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4B9610651C177C68002A8942 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		C2BEA7DA1C176F5700DFE3A1 /* WannaPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WannaPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BEA7DD1C176F5700DFE3A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2BEA7DF1C176F5700DFE3A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -165,8 +175,8 @@
 		C2BEA80B1C1777BC00DFE3A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C2B180581C177A0400202244 /* Bolts.framework */,
-				C2B180591C177A0400202244 /* Parse.framework */,
+				4B9610641C177C68002A8942 /* Bolts.framework */,
+				4B9610651C177C68002A8942 /* Parse.framework */,
 				C2BEA8101C1778B600DFE3A1 /* AudioToolbox.framework */,
 				C2BEA8111C1778B600DFE3A1 /* CFNetwork.framework */,
 				C2BEA8121C1778B600DFE3A1 /* CoreGraphics.framework */,
