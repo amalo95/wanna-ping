@@ -26,6 +26,8 @@
 		C2F2DD831C177D4000BB8921 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8191C1778B600DFE3A1 /* SystemConfiguration.framework */; };
 		C2F2DD861C177F8700BB8921 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2DD841C177F8700BB8921 /* Bolts.framework */; };
 		C2F2DD871C177F8700BB8921 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F2DD851C177F8700BB8921 /* Parse.framework */; };
+		C2F2DD891C17949900BB8921 /* LeaguesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F2DD881C17949900BB8921 /* LeaguesViewController.swift */; };
+		C2F2DD8B1C17982500BB8921 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F2DD8A1C17982500BB8921 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		C2BEA8191C1778B600DFE3A1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		C2F2DD841C177F8700BB8921 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1-2/Bolts.framework"; sourceTree = "<group>"; };
 		C2F2DD851C177F8700BB8921 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/parse-library-1-2/Parse.framework"; sourceTree = "<group>"; };
+		C2F2DD881C17949900BB8921 /* LeaguesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaguesViewController.swift; sourceTree = "<group>"; };
+		C2F2DD8A1C17982500BB8921 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 				C2BEA7DD1C176F5700DFE3A1 /* AppDelegate.swift */,
 				C2BEA7DF1C176F5700DFE3A1 /* ViewController.swift */,
 				C2BEA7E11C176F5700DFE3A1 /* Main.storyboard */,
+				C2F2DD8A1C17982500BB8921 /* LoginViewController.swift */,
+				C2F2DD881C17949900BB8921 /* LeaguesViewController.swift */,
 				C2BEA7E41C176F5700DFE3A1 /* Assets.xcassets */,
 				C2BEA7E61C176F5700DFE3A1 /* LaunchScreen.storyboard */,
 				C2BEA7E91C176F5700DFE3A1 /* Info.plist */,
@@ -316,8 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F2DD8B1C17982500BB8921 /* LoginViewController.swift in Sources */,
 				C2BEA7E01C176F5700DFE3A1 /* ViewController.swift in Sources */,
 				C2BEA7DE1C176F5700DFE3A1 /* AppDelegate.swift in Sources */,
+				C2F2DD891C17949900BB8921 /* LeaguesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
