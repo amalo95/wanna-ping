@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C2B1805A1C177A0400202244 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B180581C177A0400202244 /* Bolts.framework */; };
+		C2B1805B1C177A0400202244 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2B180591C177A0400202244 /* Parse.framework */; };
 		C2BEA7DE1C176F5700DFE3A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEA7DD1C176F5700DFE3A1 /* AppDelegate.swift */; };
 		C2BEA7E01C176F5700DFE3A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEA7DF1C176F5700DFE3A1 /* ViewController.swift */; };
 		C2BEA7E31C176F5700DFE3A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BEA7E11C176F5700DFE3A1 /* Main.storyboard */; };
@@ -14,6 +16,15 @@
 		C2BEA7E81C176F5700DFE3A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2BEA7E61C176F5700DFE3A1 /* LaunchScreen.storyboard */; };
 		C2BEA7F31C176F5700DFE3A1 /* WannaPingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEA7F21C176F5700DFE3A1 /* WannaPingTests.swift */; };
 		C2BEA7FE1C176F5800DFE3A1 /* WannaPingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BEA7FD1C176F5800DFE3A1 /* WannaPingUITests.swift */; };
+		C2F2DD7A1C177A3D00BB8921 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8101C1778B600DFE3A1 /* AudioToolbox.framework */; };
+		C2F2DD7B1C177A4F00BB8921 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8121C1778B600DFE3A1 /* CoreGraphics.framework */; };
+		C2F2DD7C1C177A6400BB8921 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8141C1778B600DFE3A1 /* libsqlite3.tbd */; };
+		C2F2DD7D1C177A6C00BB8921 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8131C1778B600DFE3A1 /* CoreLocation.framework */; };
+		C2F2DD7E1C177A7400BB8921 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8151C1778B600DFE3A1 /* libz.tbd */; };
+		C2F2DD7F1C177A7B00BB8921 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8161C1778B600DFE3A1 /* QuartzCore.framework */; };
+		C2F2DD801C177A9400BB8921 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8111C1778B600DFE3A1 /* CFNetwork.framework */; };
+		C2F2DD811C177AA200BB8921 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8171C1778B600DFE3A1 /* Security.framework */; };
+		C2F2DD821C177AA800BB8921 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BEA8181C1778B600DFE3A1 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C2B180581C177A0400202244 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1-2/Bolts.framework"; sourceTree = "<group>"; };
+		C2B180591C177A0400202244 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../Downloads/parse-library-1-2/Parse.framework"; sourceTree = "<group>"; };
 		C2BEA7DA1C176F5700DFE3A1 /* WannaPing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WannaPing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BEA7DD1C176F5700DFE3A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2BEA7DF1C176F5700DFE3A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,16 @@
 		C2BEA7F91C176F5700DFE3A1 /* WannaPingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WannaPingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2BEA7FD1C176F5800DFE3A1 /* WannaPingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WannaPingUITests.swift; sourceTree = "<group>"; };
 		C2BEA7FF1C176F5800DFE3A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2BEA8101C1778B600DFE3A1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C2BEA8111C1778B600DFE3A1 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C2BEA8121C1778B600DFE3A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2BEA8131C1778B600DFE3A1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C2BEA8141C1778B600DFE3A1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		C2BEA8151C1778B600DFE3A1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		C2BEA8161C1778B600DFE3A1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C2BEA8171C1778B600DFE3A1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C2BEA8181C1778B600DFE3A1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C2BEA8191C1778B600DFE3A1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F2DD821C177AA800BB8921 /* StoreKit.framework in Frameworks */,
+				C2F2DD811C177AA200BB8921 /* Security.framework in Frameworks */,
+				C2F2DD801C177A9400BB8921 /* CFNetwork.framework in Frameworks */,
+				C2F2DD7F1C177A7B00BB8921 /* QuartzCore.framework in Frameworks */,
+				C2F2DD7E1C177A7400BB8921 /* libz.tbd in Frameworks */,
+				C2F2DD7D1C177A6C00BB8921 /* CoreLocation.framework in Frameworks */,
+				C2F2DD7C1C177A6400BB8921 /* libsqlite3.tbd in Frameworks */,
+				C2F2DD7B1C177A4F00BB8921 /* CoreGraphics.framework in Frameworks */,
+				C2F2DD7A1C177A3D00BB8921 /* AudioToolbox.framework in Frameworks */,
+				C2B1805A1C177A0400202244 /* Bolts.framework in Frameworks */,
+				C2B1805B1C177A0400202244 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +111,7 @@
 		C2BEA7D11C176F5700DFE3A1 = {
 			isa = PBXGroup;
 			children = (
+				C2BEA80B1C1777BC00DFE3A1 /* Frameworks */,
 				C2BEA7DC1C176F5700DFE3A1 /* WannaPing */,
 				C2BEA7F11C176F5700DFE3A1 /* WannaPingTests */,
 				C2BEA7FC1C176F5800DFE3A1 /* WannaPingUITests */,
@@ -123,6 +158,25 @@
 				C2BEA7FF1C176F5800DFE3A1 /* Info.plist */,
 			);
 			path = WannaPingUITests;
+			sourceTree = "<group>";
+		};
+		C2BEA80B1C1777BC00DFE3A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2B180581C177A0400202244 /* Bolts.framework */,
+				C2B180591C177A0400202244 /* Parse.framework */,
+				C2BEA8101C1778B600DFE3A1 /* AudioToolbox.framework */,
+				C2BEA8111C1778B600DFE3A1 /* CFNetwork.framework */,
+				C2BEA8121C1778B600DFE3A1 /* CoreGraphics.framework */,
+				C2BEA8131C1778B600DFE3A1 /* CoreLocation.framework */,
+				C2BEA8141C1778B600DFE3A1 /* libsqlite3.tbd */,
+				C2BEA8151C1778B600DFE3A1 /* libz.tbd */,
+				C2BEA8161C1778B600DFE3A1 /* QuartzCore.framework */,
+				C2BEA8171C1778B600DFE3A1 /* Security.framework */,
+				C2BEA8181C1778B600DFE3A1 /* StoreKit.framework */,
+				C2BEA8191C1778B600DFE3A1 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,6 +451,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WannaPing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AMTAK.WannaPing;
@@ -408,6 +466,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = WannaPing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AMTAK.WannaPing;
@@ -482,6 +544,7 @@
 				C2BEA8041C176F5800DFE3A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2BEA8051C176F5800DFE3A1 /* Build configuration list for PBXNativeTarget "WannaPingTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +553,7 @@
 				C2BEA8071C176F5800DFE3A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2BEA8081C176F5800DFE3A1 /* Build configuration list for PBXNativeTarget "WannaPingUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +562,7 @@
 				C2BEA80A1C176F5800DFE3A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
