@@ -1,2 +1,4 @@
 #ignoring:
 *.frameworks
+Bolts.framework/
+Parse.framework/
